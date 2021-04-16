@@ -1,0 +1,15 @@
+
+
+<script>
+
+    let ws = new WebSocket('ws://localhost:8000');
+
+    ws.onopen= (event)=>{
+        
+    }
+
+    ws.onmessage = (event)=>{
+        console.log(event);
+    }
+
+</script>
